@@ -1,0 +1,30 @@
+
+server:
+  port: 9000
+spring:
+  application:
+    name: "cards"
+  profiles:
+    active: "prod"
+  datasource:
+    url: jdbc:mysql://localhost:3308/cardsdb
+    username: root
+    password: 'root'
+  sql:
+    init:
+      mode: always
+  config: 
+    activate:
+     on-profile: "prod"
+
+build: 
+  version: '1.0'
+
+cards: 
+  message: "Welcome to Bank Cards related Prod APIs"
+  contactDetails:
+    name: "Suresh - Prod Leads"
+    email: "pokhrailsuresh5@gmail.com"
+  contact: 
+      -7500065216
+      -7500065827
