@@ -1,0 +1,30 @@
+
+server:
+  port: 8090
+spring:
+  application:
+    name: "loans"
+  profiles:
+    active: "prod"
+  datasource:
+    url: jdbc:mysql://localhost:3306/loansdb
+    username: root
+    password: 'root'
+  sql:
+    init:
+      mode: always
+  config: 
+    activate:
+     on-profile: "prod"
+
+build: 
+  version: '1.0'
+
+loans: 
+  message: "Welcome to Bank Loans related Prod APIs"
+  contactDetails:
+    name: "Suresh Pokhrail - Prod Leads"
+    email: "pokhrailsuresh5@gmail.com"
+  contact: 
+      -7500065026
+      -7500065027

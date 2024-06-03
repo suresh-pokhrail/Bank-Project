@@ -1,0 +1,25 @@
+{"properties": [{
+  "name": "loans.contact",
+  "type": "java.lang.String",
+  "description": "A description for 'loans.contact'"
+},
+{
+    "name": "loans.contact-details.email",
+  "type": "java.lang.String",
+  "description": "A description for 'loans.contact-details.email'"
+},
+{
+  "name": "loans.contact-details.name",
+  "type": "java.lang.String",
+  "description": "A description for 'loans.contact-details.name'"
+},
+{
+  "name": "loans.message",
+  "type": "java.lang.String",
+  "description": "A description for 'loans.message'"
+},
+{
+  "name": "build.version",
+  "type": "java.lang.String",
+  "description": "A description for 'build.version'"
+}]}
